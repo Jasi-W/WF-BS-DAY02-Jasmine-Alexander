@@ -21,17 +21,17 @@
 			<a class="nav-link" href="#">Contact</a>
 			<a class="nav-link" href="#">About</a>
 			<a class="nav-link" href="#">Settings</a>
-
+			
 			<form class="form-inline">
 				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 			</form>
 		</div>
 	</nav>
+	
 
 	
 	<nav class="contained-fluid fixed-bottom">
-	<p class="display-4">Navbar Fixed-Bottom</p>
 		<div class="navbar navbar-dark  bg-dark rounded" style="background-color: #e3f2fd;">
 			<a class="nav-link active" href="#">Home</a>
 			<a class="nav-link" href="#">Contact</a>
@@ -45,11 +45,42 @@
 		</div>
 	</nav>
 	
-	
-	
-	
+<div class="container-fluid">
+	<nav class="nav flex-column">
+	  <a class="nav-link active" href="#">Active</a>
+	  <a class="nav-link" href="#">Link</a>
+	  <a class="nav-link" href="#">Link</a>
+	  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+	</nav>
+</div>
  
 	<div class="container box1">
+	
+	
+		<p class="display-4">Navbar with Dropdown</p>
+		<ul class="nav nav-pills">
+		<li class="nav-item m-2">
+		<a class="nav-link active" href="#">Active</a>
+		</li>
+		<li class="nav-item dropdown m-2">
+		<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+		<div class="dropdown-menu">
+		  <a class="dropdown-item" href="#">Action</a>
+		  <a class="dropdown-item" href="#">Another action</a>
+		  <a class="dropdown-item" href="#">Something else here</a>
+		  <div class="dropdown-divider"></div>
+		  <a class="dropdown-item" href="#">Separated link</a>
+		</div>
+		</li>
+		<li class="nav-item m-2">
+		<a class="nav-link" href="#">Link</a>
+		</li>
+		<li class="nav-item m-2">
+		<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+		</li>
+		</ul>
+	
+	
 	    <h1 class="display-3 text-center">My First 5 Weeks at CodeFactory</h1>
    <p>
      I've finished my five weeks at CodeFactory. Here are some of the things I've learned so far:
